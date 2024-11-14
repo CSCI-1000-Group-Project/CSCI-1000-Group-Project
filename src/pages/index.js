@@ -23,11 +23,10 @@ export default function Home() {
 
         <div className='grid'>
           <a href='/JessieHsu ' className='card'>
-            // https://jessiesite.netlify.app
             <h3>Jessie's Page &rarr;</h3>
             <p>Click here to navigate to Jessie's page</p>
           </a>
-          
+
           <a href='/TomHolland ' className='card'>
             <h3>Example About Me Page &rarr;</h3>
             <p>Click here to navigate to an example page</p>
