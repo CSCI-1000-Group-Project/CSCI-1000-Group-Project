@@ -10,19 +10,18 @@ export default function Page() {
           </div>
           <img
             className='pic'
-            src='https://drive.google.com/file/d/1cMOJo8LrPrrvbD30SHCJGh67R0nhebrR/view'
+            src='/Users/jessiehsu/Downloads/IMG_0307.JPG'
             alt='jessie hsu'
           />
 
           <p className='description'>
-            Hey I am your friendly neighbourhood Spider Man. My real name is Tom
-            Holland. I am an actor but mostly I fight villains and juggle high school.
-            I am just your average student – well, maybe not so average. 
-            You see, I've got some incredible powers, like superhuman strength, agility, 
-            and the ability to shoot webs from my wrists. With great power comes great 
-            responsibility, and I'm here to protect New York City from all kinds of baddies,
-            from common crooks to supervillains. So, if you ever need a hand or a web-swinging
-            hero in your corner, just remember, I'm your friendly neighborhood Spider-Man!"
+            Hi, my name's Jessie and I'm currently a first-year CS student at the University of Colorado Boulder.
+            I grew up in Boulder and attended a high school not too far away from CU so I'm a true Boulder native 
+            -- I'm happy to give anyone recommendations! My current programming language of choice is C++ since CU's
+            CS courses are heavily based on it, but I'm learning Python as well so I can work with machine learning
+            and artificial intelligence more in the future. Recently, I've been looking into quantum computing as
+            well and to my knowledge, CU's a great place to explore that interest a little more in depth. Glad to be
+            here!
           </p>
 
           <a className='button' href='/'>
