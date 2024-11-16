@@ -10,7 +10,7 @@ export default function Page() {
           </div>
           <img
             className='pic'
-            src='/Users/jessiehsu/Downloads/IMG_0307.JPG'
+            src='/../public/jessie.JPG'
             alt='jessie hsu'
           />
 
