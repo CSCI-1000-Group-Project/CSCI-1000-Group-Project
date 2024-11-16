@@ -1,5 +1,10 @@
 import Head from 'next/head'
 
+/*
+Personal Netlify links:
+https://jessiesite.netlify.app
+*/
+
 export default function Home() {
   return (
     <div className='container'>
