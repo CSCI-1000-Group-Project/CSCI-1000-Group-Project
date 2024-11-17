@@ -3,6 +3,7 @@ import Head from 'next/head'
 /*
 Personal Netlify links:
 https://jessiesite.netlify.app
+https://673a7407e563dc5e03d6e116--admirable-haupia-99c5d4.netlify.app/
 */
 
 export default function Home() {
