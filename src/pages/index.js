@@ -40,7 +40,7 @@ export default function Home() {
 
           <a href='/MaxJambor ' className='card'>
             <h3>Max's Page &rarr;</h3>
-            <p>Click here to navigate to Max's Cool Page</p>
+            <p>Click here to navigate to Max's page</p>
           </a>
 
           <a
