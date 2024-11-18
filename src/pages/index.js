@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 /*
 Personal Netlify links:
@@ -28,25 +28,35 @@ export default function Home() {
         <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
-          <a href='/JessieHsu ' className='card'>
+          <a href='/JessieHsu' className='card'>
             <h3>Jessie's Page &rarr;</h3>
             <p>Click here to navigate to Jessie's page</p>
           </a>
 
-          <a href='/TomHolland ' className='card'>
+          <a href='/TomHolland' className='card'>
             <h3>Example About Me Page &rarr;</h3>
             <p>Click here to navigate to an example page</p>
           </a>
 
-          <a href='/MaxJambor ' className='card'>
+          <a href='/MaxJambor' className='card'>
             <h3>Max's Page &rarr;</h3>
             <p>Click here to navigate to Max's page</p>
+          </a>
+
+          <a href='/AidanTiruvan' className='card'>
+            <h3>Aidan's Page &rarr;</h3>
+            <p>Click here to navigate to Aidan's page</p>
+          </a>
+
+          <a href='/AdityaDhar' className='card'>
+            <h3>Aditya's Page &rarr;</h3>
+            <p>Click here to navigate to Aditya's page</p>
           </a>
 
           <a
             href='https://github.com/vedant29/Project-CSCI-1000'
             className='card'>
-            <h3>Project Resources&rarr;</h3>
+            <h3>Project Resources &rarr;</h3>
             <p>
               Return to the Github for resources on creating your own website!
             </p>
@@ -54,23 +64,23 @@ export default function Home() {
           <a
             href='https://nextjs.org/learn/foundations/about-nextjs'
             className='card'>
-            <h3>Next.js&rarr;</h3>
+            <h3>Next.js &rarr;</h3>
             <p>Click here to learn more about Next.js</p>
           </a>
           <a href='https://blog.hubspot.com/website/html' className='card'>
             <h3>HTML and CSS &rarr;</h3>
             <p>Click here to learn more about HTML and CSS</p>
-          </a>{' '}
+          </a>
           <a href='https://tailwindcss.com/' className='card'>
-            <h3>Tailwind css&rarr;</h3>
-            <p>Click here to learn more about tailwind css</p>
+            <h3>Tailwind CSS &rarr;</h3>
+            <p>Click here to learn more about Tailwind CSS</p>
           </a>
           <a href='https://styled-components.com/' className='card'>
-            <h3>Styled Components&rarr;</h3>
+            <h3>Styled Components &rarr;</h3>
             <p>Click here to learn more about Styled Components</p>
           </a>
           <a href='https://www.netlify.com/' className='card'>
-            <h3>Netlify&rarr;</h3>
+            <h3>Netlify &rarr;</h3>
             <p>Click here to learn more about Netlify to host your website</p>
           </a>
         </div>

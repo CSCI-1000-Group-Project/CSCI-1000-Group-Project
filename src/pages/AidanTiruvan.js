@@ -1,23 +1,28 @@
 import Head from 'next/head';
 
-export default function Aditya() {
+export default function Aidan() {
   return (
     <div className='container'>
       <Head>
-        <title>Aditya's Page</title>
+        <title>Aidan Tiruvan's Page</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <h1 className='title'>I'm Aditya!</h1>
-
+        <h1 className='title'>I'm Aidan Tiruvan!</h1>
+        <img
+          className='pic'
+          src='https://i.postimg.cc/nhQhm7WY/489400.jpg'
+          alt='Aidan Tiruvan'
+        />
         <p className='description'>
-          Hi, my name is Aditya, and I am from Boulder. I am currently a freshman studying Computer Science. 
-          My programming language of choice is Java, as I have worked with it in the past. However, I am eager 
-          to learn more languages throughout my college career. I am also exploring various fields in computer science, 
-          and cybersecurity is one of my main interests so far, though I am still considering all my options.
+          Hi, my name's Aidan, and I'm a first-year Computer Science and Mathematics student at the University of Colorado Boulder. 
+          I’m passionate about exploring computational theory and quantitative analysis, with a particular interest in creating 
+          innovative solutions in robotics, machine learning, and data science for NASA and beyond. Some of my projects include 
+          a 3D raycasting game engine written in Assembly and a robotics GUI for automating chemical synthesis. In my free time, 
+          I enjoy delving into classics like Homer's <em>Iliad</em>, participating in math competitions, and working on my startup, 
+          ModelBucket, which focuses on MLOps.
         </p>
-
         <a className='button' href='/'>
           <p>Back to Home Page</p>
         </a>
@@ -48,10 +53,20 @@ export default function Aditya() {
           font-size: 4rem;
         }
 
+        .pic {
+          height: 200px;
+          width: 200px;
+          border-radius: 50%;
+          object-fit: cover;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          margin-bottom: 1.5rem;
+        }
+
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
           text-align: center;
+          margin: 1rem 0;
         }
 
         .button {
