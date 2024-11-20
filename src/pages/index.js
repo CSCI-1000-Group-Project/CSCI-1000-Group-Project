@@ -49,7 +49,7 @@ export default function Home() {
             <p>Click here to navigate to Aidan's page</p>
           </a>
           
-           <a href='/AdityaDhar ' className='card'>
+           <a href='/AdityaDhar' className='card'>
             <h3>Aditya's Page &rarr;</h3>
             <p>Click here to navigate to Aditya's page</p>
           </a>
