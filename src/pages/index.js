@@ -4,6 +4,7 @@ import Head from 'next/head';
 Personal Netlify links:
 https://jessiesite.netlify.app
 https://maxjambor.netlify.app
+https://silly-twilight-01dc3d.netlify.app/adityadhar
 */
 
 export default function Home() {
