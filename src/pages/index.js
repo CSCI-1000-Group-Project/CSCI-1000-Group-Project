@@ -48,7 +48,7 @@ export default function Home() {
             <p>Click here to navigate to Aditya's page</p>
           </a>
 
-<<<<<<< HEAD
+
           <a href='/AidanTiruvan' className='card'>
             <h3>Aidan's Page &rarr;</h3>
             <p>Click here to navigate to Aidan's page</p>
